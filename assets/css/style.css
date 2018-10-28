@@ -415,3 +415,14 @@ input[type=submit]{
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
+
+input[type=submit]:hover,
+input[type=submit]:active{
+        background-color: #bf6516;
+        border: 1px solid #bf6516;
+    }
+}
+
+textarea{
+    height: 100px;
+}
